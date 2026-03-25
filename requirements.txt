@@ -1,0 +1,11 @@
+streamlit
+PyMuPDF
+langchain
+langchain-core
+langchain-community
+langchain-groq
+transformers
+Pillow
+torch
+numpy
+faiss-cpu

@@ -35,7 +35,7 @@ This project was built to test the limits of unified vision-language vector spac
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/KhwaishK/Visual-Context-RAG.git](https://github.com/KhwaishK/Visual-Context-RAG.git)
+   git clone https://github.com/KhwaishK/Visual-Context-RAG.git
    cd Visual-Context-RAG
    ```
 
@@ -45,7 +45,7 @@ This project was built to test the limits of unified vision-language vector spac
    ```
 
 3. **Set up your environment:**
-   * Create a ```.env``` file in the root directory and add your Groq API key: *
+   * *Create a ```.env``` file in the root directory and add your Groq API key:*
    ```bash
    GROQ_API_KEY= "your_api_key_here"
 
@@ -54,3 +54,12 @@ This project was built to test the limits of unified vision-language vector spac
    streamlit run app.py
    ```
    
+---
+   
+## 🤝 Contributing
+Pull requests are welcome! Feel free to open issues to suggest improvements or report bugs.
+
+## 👩‍💻 Author
+Khwaish Khandelwal
+- Data Science | Generative AI | Computer Vision | NLP | 
+[LinkedIn](https://www.linkedin.com/in/khwaish-khandelwal-543b9725a/) | [GitHub](https://github.com/KhwaishK)

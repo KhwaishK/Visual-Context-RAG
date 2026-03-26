@@ -16,14 +16,14 @@ By projecting text and spatial image tensors into a shared, unified vector space
 1. **Document Ingestion:** Uses `PyMuPDF` (fitz) to parse PDFs, extracting standard text chunks and ripping embedded images/charts as raw byte streams.
 2. **Unified Embedding Space:** Utilizes OpenAI's `CLIP-ViT-Base-Patch32` to generate 512-dimensional embeddings for *both* text chunks and images, mapping them into the same semantic vector space.
 3. **Vector Storage:** Stores the multimodal embeddings in a localized, CPU-optimized `FAISS` index for lightning-fast similarity search.
-4. **Context Retrieval & Generation:** Queries are embedded via CLIP, compared against the FAISS index, and the top-K multimodal results (text and base64 images) are injected into the context window of Meta's Llama model via the Groq API.
+4. **Context Retrieval & Generation:** Queries are embedded via CLIP, compared against the FAISS index, and the top-K multimodal results (text and base64 images) are injected into the context window of Meta's Llama 4 Scout model via the Groq API.
 
 ## 🛠️ Tech Stack
 * **Frontend/Deployment:** Streamlit
 * **Deep Learning Framework:** PyTorch
 * **Multimodal Embeddings:** Hugging Face `transformers` (OpenAI CLIP)
 * **Vector Database:** FAISS (Facebook AI Similarity Search)
-* **LLM Engine:** Groq API (Llama Vision models)
+* **LLM Engine:** Groq API (Llama 4 Scout)
 * **Document Processing:** PyMuPDF (`fitz`), Pillow
 
 ## 🔬 Architectural Limitations & Future Work
@@ -45,7 +45,7 @@ This project was built to test the limits of unified vision-language vector spac
    ```
 
 3. **Set up your environment:**
-   Create a ```.env``` file in the root directory and add your Groq API key:
+   * Create a ```.env``` file in the root directory and add your Groq API key:
    ```bash
    GROQ_API_KEY= "your_api_key_here"
 

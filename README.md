@@ -8,7 +8,7 @@ By projecting text and spatial image tensors into a shared, unified vector space
 
 ---
 
-*(Drag and drop your screenshot of the app working right here while editing in GitHub! It will replace this text with the image code.)*
+*<img width="1920" height="1080" alt="Screenshot (292)" src="https://github.com/user-attachments/assets/d4dd3b85-8f54-49be-80be-3055c2d8c26f" />*
 
 ---
 

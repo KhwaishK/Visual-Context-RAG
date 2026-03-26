@@ -8,7 +8,7 @@ By projecting text and spatial image tensors into a shared, unified vector space
 
 ---
 
-*<img width="1920" height="1080" alt="Screenshot (292)" src="https://github.com/user-attachments/assets/d4dd3b85-8f54-49be-80be-3055c2d8c26f" />*
+*<img width="1920" height="806" alt="Screenshot (292)" src="https://github.com/user-attachments/assets/fb35026a-7e4d-4cd2-a12b-9cf24911a210" />*
 
 ---
 

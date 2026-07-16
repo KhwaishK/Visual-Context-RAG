@@ -3,7 +3,7 @@ from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage
 from embedding_functions import embed_text
 
-llm = ChatGroq(model="meta-llama/llama-4-scout-17b-16e-instruct")
+llm = ChatGroq(model="qwen-3.6-27b")
 
 def retrieve_multimodal(query, vector_store, k=5):
     query_embedding = embed_text(query)

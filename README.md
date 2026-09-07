@@ -1,14 +1,8 @@
 # 🖼️ Visual Context RAG
 
-[![Live Demo on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/KhwaishK/Visual-Context-RAG)
-
 **Visual Context RAG** is an end-to-end Multimodal Retrieval-Augmented Generation pipeline. It allows users to upload complex, unstructured PDFs and query both the textual data and the embedded visual data (charts, graphs, and diagrams) simultaneously.
 
 By projecting text and spatial image tensors into a shared, unified vector space, this application bypasses the traditional limitations of text-only RAG systems.
-
----
-
-*<img width="1920" height="806" alt="Screenshot (292)" src="https://github.com/user-attachments/assets/fb35026a-7e4d-4cd2-a12b-9cf24911a210" />*
 
 ---
 
